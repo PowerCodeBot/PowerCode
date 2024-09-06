@@ -1,1 +1,3 @@
-
+$if[$or[$var[p]==ajuda;$var[p]==botinfo;$var[p]==comandos]==true]
+https://raw.githubusercontent.com/PowerCodeBot/PowerCode/main/pt/comandos/utilidade/ajuda.bd
+$endif
