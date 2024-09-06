@@ -1,0 +1,21 @@
+$nomention
+$authorIcon[$userAvatar[$botID]]
+$author[Help Center | $username[$botID]]
+$thumbnail[$userAvatar[$botID]]
+$description[👾 **PowerCode - Your Programming Assistant!** 🚀
+> Hello, I am **PowerCode**, the multifunctional bot for your Discord server! I'm here to help you explore the world of programming in a fun and interactive way. 
+💻 **What do I do?**
+- **Wiki of Languages:** Discover everything about the main programming languages! From Python to JavaScript, I'm always ready to provide information, tips, and tutorials.
+- **Useful Commands:** Need help with code? Just call me! I can assist with snippets, solve problems, and even suggest best practices.
+- **Daily Tips:** Stay updated with the best programming tips through my daily messages!
+> 🌟 I'm here to make your programming experience easier and more enjoyable. Let's code together!]
+$footer[Navigate using the buttons below!]
+$color[$getVar[color]]
+
+$addButton[no;help/economy/$authorID;;primary;no;💰]
+$addButton[no;help/utility/$authorID;;primary;no;🎈]
+$addButton[no;help/botlist/$authorID;;primary;no;🤖]
+$addButton[no;help/moderation/$authorID;;primary;no;🛠️]
+$addButton[no;help/diversao/$authorID;;primary;no;🎉]
+$addButton[yes;help/mais/$authorID;More Information;secondary;no]
+$addButton[no;help/dev-info/$authorID;About the Developer;secondary;no]
