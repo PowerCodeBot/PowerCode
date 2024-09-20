@@ -2,7 +2,7 @@ $onlyIf[$guildID!=;<a:errado:1286771601685086210>  **-** <@$authorId>, esse coma
 $onlyIf[$isAdmin[$authorID]==true;<a:errado:1286771601685086210> **-** <@$authorId>, você tem que possuir permissão de **`administrador`** para utilizar esse comando!]
 
 
-$if[$textSplit[$getServerVar[database]]$splitText[1]==]
+$if[$textSplit[$getServerVar[database];/]$splitText[1]==]
 $var[id;$sendEmbedMessage[1286762350799618049;```{
   "sevidor": {
     "botlist": {
