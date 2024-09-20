@@ -1,3 +1,6 @@
 $if[$or[$var[p]==ajuda;$var[p]==botinfo;$var[p]==comandos]==true]
 https://raw.githubusercontent.com/PowerCodeBot/PowerCode/main/pt/comandos/utilidade/ajuda.bd
+
+$elseif[$or[$var[p]==botlist;$var[p]==config-botlist;$var[p]==gerenciar-botlist]==true]
+https://raw.githubusercontent.com/PowerCodeBot/PowerCode/refs/heads/main/pt/comandos/botlist/botlist.bd
 $endif
