@@ -1,0 +1,9 @@
+$onlyIf[$serverChannelExists[$input[1]]==true;<a:errado:1286771601685086210> **-** <@$authorID>, você digitou um ID errado ou o ID não está localizado nesse servidor!]
+$onlyIf[$or[$channelType[$input[1]]==text;$channelType[$input[1]]==announcement]==true;<a:errado:1286771601685086210> **-** <@$authorID>, você só pode sertar em canais de texto!]
+
+$textSplit[$getServerVar[database];/]
+$jsonParse[$replaceText[$getMessage[1286762350799618049;$splitText[1]];`;;-1]]
+
+$jsonSet[servidor;botlist;canais;addbot;$input[1]]
+
+<a:certo:1286771557791957053> **-** <@$authorID>, você setou o canal de **`addbot`** com sucesso!
