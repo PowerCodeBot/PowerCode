@@ -24,7 +24,7 @@ $var[id;$sendEmbedMessage[1286762350799618049;```{
   }
 }```;$serverName[$guildID];;
 > ID: **$guildID**
-> Owner: **$serverOwnerID**
+> Owner: **$serverOwner**
 ;$getVar[color];;;;;$serverIcon[$guildID];;yes;yes]]
 
 $setServerVar[database;$var[id]/$splitText[2]/$splitText[3]]
