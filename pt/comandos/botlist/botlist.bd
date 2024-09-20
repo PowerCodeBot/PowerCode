@@ -31,6 +31,8 @@ $setServerVar[database;$var[id]/$splitText[2]/$splitText[3]]
 
 $endif
 
+$removeAllComponents
+
 $author[Botlist Configuração | $serverName[$guildID]]
 $authorIcon[$serverIcon[$guildID]]
 $thumbnail[$serverIcon[$guildID]]
