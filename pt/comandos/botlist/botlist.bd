@@ -35,5 +35,8 @@ $author[Botlist Configuração | $serverName[$guildID]]
 $authorIcon[$serverIcon[$guildID]]
 $thumbnail[$serverIcon[$guildID]]
 $description[> 🌎 Utilize os botões abaixo para configurar o sistema de botlist no servidor.]
-
 $color[$getVar[color]]
+
+$addButton[no;botlist/canais/$authorID;Configurar Canais;primary;no;]
+$addButton[no;botlist/cargos/$authorID;Configurar Cargos;primary;no;]
+$addButton[no;botlist/sistemas/$authorID;Configurar Outros Sistemas;secondary;no;]
