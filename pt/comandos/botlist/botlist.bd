@@ -4,7 +4,7 @@ $onlyIf[$isAdmin[$authorID]==true;<a:errado:1286771601685086210> **-** <@$author
 
 $if[$textSplit[$getServerVar[database];/]$splitText[1]==]
 $var[id;$sendEmbedMessage[1286762350799618049;```{
-  "sevidor": {
+  "servidor": {
     "botlist": {
       "canais": {
         "addbot": "",
