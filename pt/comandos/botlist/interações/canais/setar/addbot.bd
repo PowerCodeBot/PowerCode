@@ -5,5 +5,7 @@ $textSplit[$getServerVar[database];/]
 $jsonParse[$replaceText[$getMessage[1286762350799618049;$splitText[1]];`;;-1]]
 
 $jsonSet[servidor;botlist;canais;addbot;$input[1]]
+$editMessage[1286762350799618049;$splitText[1];$optOff[$jsonPretty[4]]]
 
 <a:certo:1286771557791957053> **-** <@$authorID>, você setou o canal de **`addbot`** com sucesso!
+
