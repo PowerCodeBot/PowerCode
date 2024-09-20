@@ -3,4 +3,7 @@ https://raw.githubusercontent.com/PowerCodeBot/PowerCode/refs/heads/main/pt/coma
 
 $elseif[$textSplit[$customID;/]$and[$splitText[1]==botlist;$splitText[2]==voltar;$splitText[3]==$authorID]==true]
 https://raw.githubusercontent.com/PowerCodeBot/PowerCode/refs/heads/main/pt/comandos/botlist/botlist.bd
+
+$elseif[$textSplit[$customID;/]$and[$splitText[1]==botlist;$splitText[2]==canal;$splitText[3]==$authorID]==true]
+
 $endif
