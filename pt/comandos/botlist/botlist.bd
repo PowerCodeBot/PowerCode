@@ -1,0 +1,9 @@
+$onlyIf[$guildID!=;<a:errado:1286771601685086210>  **-** <@$authorId>, esse comando só pode ser utilizado em servidores!]
+$onlyIf[$isAdmin[$authorID]==true;<a:errado:1286771601685086210> **-** <@$authorId>, você tem que possuir permissão de **`administrador`** para utilizar esse comando!]
+
+$author[Botlist Configuração | $serverName[$guildID]]
+$authorIcon[$serverIcon[$guildID]]
+$thumbnail[$serverIcon[$guildID]]
+$description[> 🌎 Utilize os botões abaixo para configurar o sistema de botlist no servidor.]
+
+$color[$getVar[color]]
