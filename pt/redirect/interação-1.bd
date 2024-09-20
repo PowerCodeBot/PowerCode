@@ -1,0 +1,3 @@
+$if[$textSplit[$customID;/]$and[$splitText[1]==botlist;$splitText[2]==canais;$splitText[3]==$authorID]==true]
+https://raw.githubusercontent.com/PowerCodeBot/PowerCode/refs/heads/main/pt/comandos/botlist/intera%C3%A7%C3%B5es/canais/canais.bd
+$endif
