@@ -1,0 +1,2 @@
+$newModal[botlsit/modal/addbot;Addbot]
+$addTextInput[1;short;ID DO CANAL;20;30;true;;Coloque o ID do canal aqui.]
