@@ -1,3 +1,5 @@
+$removeAllComponents
+
 $textSplit[$getServerVar[database];/]
 $jsonParse[$replaceText[$getMessage[1286762350799618049;$splitText[1]];`;;-1]]
 
@@ -17,4 +19,4 @@ $addButton[no;botlist/canais/$authorID;Correio;primary;no;]
 $addButton[no;botlist/canais/$authorID;Análise;primary;no;]
 $addButton[no;botlist/canais/$authorID;Votos;primary;no;]
 $addButton[no;botlist/canais/$authorID;Logs;primary;no;]
-$addButton[yes;botlist/voltar/$authorID;;primary;no;⬅️]
+$addButton[yes;botlist/voltar/$authorID;;secondary;no;⬅️]
