@@ -6,4 +6,7 @@ https://raw.githubusercontent.com/PowerCodeBot/PowerCode/refs/heads/main/pt/coma
 
 $elseif[$textSplit[$customID;/]$and[$splitText[1]==botlist;$splitText[2]==canais;$splitText[3]==1;$splitText[4]==$authorID]==true]
 https://raw.githubusercontent.com/PowerCodeBot/PowerCode/refs/heads/main/pt/comandos/botlist/intera%C3%A7%C3%B5es/canais/modal/addbot.bd
+
+$elseif[$textSplit[$customID;/]$and[$splitText[1]==botlist;$splitText[2]==modal;$splitText[3]==addbot]==true]
+https://raw.githubusercontent.com/PowerCodeBot/PowerCode/refs/heads/main/pt/comandos/botlist/intera%C3%A7%C3%B5es/canais/setar/addbot.bd
 $endif
