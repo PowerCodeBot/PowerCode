@@ -1,5 +1,5 @@
-$onlyIf[$guildID!=;<a:errado:1286771601685086210>  **-** <@$authorId>, esse comando só pode ser utilizado em servidores!]
-$onlyIf[$isAdmin[$authorID]==true;<a:errado:1286771601685086210> **-** <@$authorId>, você tem que possuir permissão de **`administrador`** para utilizar esse comando!]
+$onlyIf[$guildID!=;<a:errado:1286771601685086210>  **-** <@$authorID>, esse comando só pode ser utilizado em servidores!]
+$onlyIf[$isAdmin[$authorID]==true;<a:errado:1286771601685086210> **-** <@$authorID>, você tem que possuir permissão de **`administrador`** para utilizar esse comando!]
 
 
 $if[$textSplit[$getServerVar[database];/]$splitText[1]==]
