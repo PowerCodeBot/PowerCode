@@ -1,0 +1,19 @@
+$textSplit[$getServerVar[database];/]
+$jsonParse[$replaceText[$getMessage[1286762350799618049;$splitText[1]];`;;-1]]
+
+$author[Botlist Configuração | $serverName[$guildID] | Canais]
+$authorIcon[$serverIcon[$guildID]]
+$thumbnail[$serverIcon[$guildID]]
+$color[$getVar[color]]
+
+$addField[Addbot;> $json[servidor;botlist;canais;addbot];yes]
+$addField[Correio;> $json[servidor;botlist;canais;correio];yes]
+$addField[Análise;> $json[servidor;botlist;canais;analise];yes]
+$addField[Votos;> $json[servidor;botlist;canais;votos];yes]
+$addField[Logs;> $json[servidor;botlist;canais;logs];yes]
+
+$addButton[no;botlist/canais/$authorID;Addbot;primary;no;]
+$addButton[no;botlist/canais/$authorID;Correio;primary;no;]
+$addButton[no;botlist/canais/$authorID;Análise;primary;no;]
+$addButton[no;botlist/canais/$authorID;Votos;primary;no;]
+$addButton[no;botlist/canais/$authorID;Logs;primary;no;]
