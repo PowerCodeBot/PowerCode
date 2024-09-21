@@ -10,7 +10,7 @@ $var[id1;$sendEmbedMessage[1286762250614607934;```{
     "maxxp": "250",
     "banner": "01",
     "banners": "01",
-    "premium": "",
+    "premium": "0",
     "botlist": {
       "limite": "1",
       "apps": ""
@@ -26,6 +26,6 @@ $title[$nickname[$var[user]]]
 $color[$getVar[color;$var[user]]]
 $description[]
 
-$addField[Economia;⭐ **$getVar[coin1;$var[user]]** Códigos | ⚡ **$getVar[coin2;$var[user]]** Códigos de Poder;no]
+$addField[Economia;🌀 **$getVar[coin1;$var[user]]** Códigos | 💠 **$getVar[coin2;$var[user]]** Códigos de Poder;no]
 
 $image[https://agg-api.vercel.app/rankcard?username=aggelos&xp=1&maxxp=10&level=1&avatar=$userAvatar[$var[user]]&background=https://github.com/PowerCodeBot/PowerCode/blob/main/database/imagens/banners/Banner_$json[user;banner].png?raw=true]
