@@ -3,4 +3,7 @@ https://raw.githubusercontent.com/PowerCodeBot/PowerCode/main/pt/comandos/utilid
 
 $elseif[$or[$var[p]==botlist;$var[p]==config-botlist;$var[p]==gerenciar-botlist]==true]
 https://raw.githubusercontent.com/PowerCodeBot/PowerCode/refs/heads/main/pt/comandos/botlist/botlist.bd
+
+$elseif[$or[$var[p]==bal;$var[p]==atm;$var[p]==perfil;$var[p]==saldo;$var[p]==carteira]==true]
+https://raw.githubusercontent.com/PowerCodeBot/PowerCode/refs/heads/main/pt/comandos/economia/bal.bd
 $endif
