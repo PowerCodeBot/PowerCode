@@ -13,7 +13,8 @@ $var[id1;$sendEmbedMessage[1286762250614607934;```{
     "premium": "0",
     "botlist": {
       "limite": "1",
-      "apps": ""
+      "apps": "",
+      "bonus": ""
     }
   }
 }```;$username;;;$getVar[color];;;;;$userAvatar[$authorID];;yes;yes]]
