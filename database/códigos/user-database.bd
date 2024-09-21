@@ -1,3 +1,4 @@
+$var[user;$authorID]
 $textSplit[$getVar[database;$var[user]];/]
 
 $if[$splitText[1]==]
