@@ -10,6 +10,6 @@ Limite:
 Premium]
 
 $addField[Economia;> 🌀 **$getVar[coin1;$var[user]]** Códigos | 💠 **$getVar[coin2;$var[user]]** Códigos de Poder;no]
-$addField[Aplicações;> 
+$addField[Aplicações;> ;no]
 
 $image[https://agg-api.vercel.app/rankcard?username=aggelos&xp=1&maxxp=10&level=1&avatar=$userAvatar[$var[user]]&background=https://github.com/PowerCodeBot/PowerCode/blob/main/database/imagens/banners/Banner_$json[user;banner].png?raw=true]
