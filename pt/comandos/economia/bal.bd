@@ -1,5 +1,7 @@
 $var[user;$findUser[$message[2]]]
 
+$httpGet[https://raw.githubusercontent.com/PowerCodeBot/PowerCode/refs/heads/main/database/c%C3%B3digos/user-database.bd]$httpResult
+
 $textSplit[$getVar[database;$var[user]];/]
 $jsonParse[$replaceText[$getMessage[1286762250614607934;$splitText[1]];`;;-1]]
 
