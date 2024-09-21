@@ -16,13 +16,13 @@ $var[id1;$sendEmbedMessage[1286762250614607934;```{
       "bonus": ""
     }
   }
-}```;$username;;;$getVar[color];;;;;$userAvatar[$authorID];;yes;yes]]
+}```;;;;;;;;;;;;yes]]
 $setVar[database;$var[id1]/$splitText[2]/$splitText[3]]
 $endif
 
 $if[$splitText[2]==]
 $var[id2;$sendEmbedMessage[1286762298660098091;```{
   "inv": ""
-}```;$username;;;$getVar[color];;;;;$userAvatar[$authorID];;yes;yes]]
+}```;;;;;;;;;;;;yes]]
 $setVar[database;$splitText[1]/$var[id2]/$splitText[3]]
 $endif
