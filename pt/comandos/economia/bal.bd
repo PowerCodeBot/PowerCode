@@ -1,1 +1,26 @@
-...
+$var[user;$findUser[$message[2]]]
+
+$textSplit[$getVar[database;$var[user]];/]
+$jsonParse[$replaceText[$getMessage[1286762250614607934;$splitText[1]];`;;-1]]
+
+
+$title[$nickname[$var[user]]]
+$description[]
+
+$addField[Economia;⭐ **$getVar[coin1;$var[user]]** Códigos | ⚡ **$getVar[coin2;$var[user]]** Códigos de Poder;no]
+
+$image[https://agg-api.vercel.app/rankcard?username=aggelos&xp=1&maxxp=10&level=1&avatar=assets/img/agg_full.png]
+
+{
+  "user": {
+    "level": "0",
+    "xp": "0",
+    "maxxp": "250",
+    "banner": "",
+    "premium": "",
+    "botlist": {
+      "limite": "1",
+      "apps": ""
+    }
+  }
+}
